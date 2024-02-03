@@ -23,6 +23,9 @@ export const useTicTacToeGrille = () => {
   }
 
   const mettreAJourCase = (i: number, j: number) => {
+    if (gagnant()) {
+      return;
+    }
     setGrille(
       produce((ligne) => {
         ligne[i][j] = joueur();
