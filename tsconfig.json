@@ -3,13 +3,32 @@
     "strict": true,
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
-    "types": ["vite/client"],
+    "types": ["vite/client", "vitest/globals"],
     "noEmit": true,
     "isolatedModules": true,
+    // enable latest features
+    "lib": ["ESNext", "dom"],
+    "moduleDetection": "force",
+    "allowJs": true, // allow importing `.js` from `.ts`
+
+    // Bundler mode
+    "moduleResolution": "bundler",
+
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+
+    // Best practices
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    // Some stricter flags
+    "useUnknownInCatchVariables": true,
+    "noPropertyAccessFromIndexSignature": true,
   },
 }
