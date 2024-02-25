@@ -24,7 +24,7 @@ devDependencies:
     version: 10.4.17(postcss@8.4.33)
   happy-dom:
     specifier: ^13.3.8
-    version: 13.3.8
+    version: 13.5.0
   postcss:
     specifier: ^8.4.33
     version: 8.4.33
@@ -48,7 +48,7 @@ devDependencies:
     version: 2.9.1(solid-js@1.8.15)(vite@5.0.12)
   vitest:
     specifier: ^1.2.2
-    version: 1.2.2(@vitest/ui@1.2.2)(happy-dom@13.3.8)
+    version: 1.2.2(@vitest/ui@1.2.2)(happy-dom@13.5.0)
 
 packages:
 
@@ -958,7 +958,7 @@ packages:
       std-env: 3.7.0
       test-exclude: 6.0.0
       v8-to-istanbul: 9.2.0
-      vitest: 1.2.2(@vitest/ui@1.2.2)(happy-dom@13.3.8)
+      vitest: 1.2.2(@vitest/ui@1.2.2)(happy-dom@13.5.0)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1005,7 +1005,7 @@ packages:
       pathe: 1.1.2
       picocolors: 1.0.0
       sirv: 2.0.4
-      vitest: 1.2.2(@vitest/ui@1.2.2)(happy-dom@13.3.8)
+      vitest: 1.2.2(@vitest/ui@1.2.2)(happy-dom@13.5.0)
     dev: true
 
   /@vitest/utils@1.2.2:
@@ -1626,8 +1626,8 @@ packages:
       get-intrinsic: 1.2.3
     dev: true
 
-  /happy-dom@13.3.8:
-    resolution: {integrity: sha512-RAbq4oYfJNkVan1m1F3jfA4YEyRY0/ASoNvZsNJbuX85jIypidmsz9jQZD7Tqz0VXA2MhAGfcsh5oshwmwNYSg==}
+  /happy-dom@13.5.0:
+    resolution: {integrity: sha512-0XWOSvyc03Z2Ye+VGP5pN6fpwgKMy3a2d09RuGRqAR4TEaW0SCtw3upt7dLoKaYBFUO+JeuDJh366aDBat3OVQ==}
     engines: {node: '>=16.0.0'}
     dependencies:
       entities: 4.5.0
@@ -2840,7 +2840,7 @@ packages:
       vite: 5.0.12
     dev: true
 
-  /vitest@1.2.2(@vitest/ui@1.2.2)(happy-dom@13.3.8):
+  /vitest@1.2.2(@vitest/ui@1.2.2)(happy-dom@13.5.0):
     resolution: {integrity: sha512-d5Ouvrnms3GD9USIK36KG8OZ5bEvKEkITFtnGv56HFaSlbItJuYr7hv2Lkn903+AvRAgSixiamozUVfORUekjw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -2876,7 +2876,7 @@ packages:
       chai: 4.4.1
       debug: 4.3.4
       execa: 8.0.1
-      happy-dom: 13.3.8
+      happy-dom: 13.5.0
       local-pkg: 0.5.0
       magic-string: 0.30.6
       pathe: 1.1.2
