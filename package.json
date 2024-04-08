@@ -16,7 +16,7 @@
     "solid-js": "^1.8.12"
   },
   "devDependencies": {
-    "@testing-library/dom": "^9.3.4",
+    "@testing-library/dom": "^10.0.0",
     "@vitest/coverage-v8": "^1.2.2",
     "@vitest/ui": "^1.2.2",
     "autoprefixer": "^10.4.17",
