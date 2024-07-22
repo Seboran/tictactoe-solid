@@ -14,7 +14,7 @@ importers:
     devDependencies:
       '@testing-library/dom':
         specifier: ^10.0.0
-        version: 10.3.2
+        version: 10.4.0
       '@vitest/coverage-v8':
         specifier: ^2.0.0
         version: 2.0.4(vitest@2.0.4(@vitest/ui@2.0.4)(happy-dom@14.12.3))
@@ -560,8 +560,8 @@ packages:
     peerDependencies:
       solid-js: ^1.6.12
 
-  '@testing-library/dom@10.3.2':
-    resolution: {integrity: sha512-0bxIdP9mmPiOJ6wHLj8bdJRq+51oddObeCGdEf6PNEhYd93ZYAN+lPRnEOVFtheVwDM7+p+tza3LAQgp0PTudg==}
+  '@testing-library/dom@10.4.0':
+    resolution: {integrity: sha512-pemlzrSESWbdAloYml3bAJMEfNh1Z7EduzqPKprCH5S341frlpYnUEW0H72dLxa6IsYr+mPno20GiSm+h9dEdQ==}
     engines: {node: '>=18'}
 
   '@types/aria-query@5.0.4':
@@ -1986,7 +1986,7 @@ snapshots:
     dependencies:
       solid-js: 1.8.18
 
-  '@testing-library/dom@10.3.2':
+  '@testing-library/dom@10.4.0':
     dependencies:
       '@babel/code-frame': 7.24.7
       '@babel/runtime': 7.24.8
